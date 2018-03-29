@@ -145,7 +145,7 @@ class Home extends Component {
       creditHours += parseInt(course.hours);
       console.log(
         parseInt(course.hours) * this._convertGradeToGPA(course.grade),
-        "aklsdjf"
+        "creditHours"
       );
       totalGPA +=
         parseInt(course.hours) * this._convertGradeToGPA(course.grade);
